@@ -10,11 +10,13 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-Then install the dependencies (bikeshed to build to HTML, weasyprint to convert from HTML to PDF)
+Then install bikeshed and update its datafiles.
 ```shell
-pip install bikeshed weasyprint
+pip install bikeshed
 bikeshed update
 ```
 
 To build the spec to HTML run `bikeshed spec`.
-To convert the HTML document to a PDF document run `weasyprint index.html index.pdf`.
+
+To convert the HTML document to a PDF document, install weasyprint by following the [instructions for your operating system](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#installation).
+You can then run `weasyprint index.html index.pdf`.
