@@ -1,7 +1,7 @@
 # PortfolioExample
 An example portfolio document, built using [Bikeshed](https://github.com/speced/bikeshed).
 
-[View the built version of the document](https://portfolioexample.georeeve.dev/)
+View the built [HTML version](https://portfolioexample.georeeve.dev/) and [PDF version](https://portfolioexample.georeeve.dev/index.pdf) of the document.
 
 ## Setup
 First create a venv within this repo, and switch to it.
