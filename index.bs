@@ -1,0 +1,73 @@
+<pre class='metadata'>
+Title: Portfolio Example
+Shortname: portfolio-example
+Level: 1
+Status: LD
+Editor: John Doe
+Abstract:
+    This is an example document, detailing some features you would use in a portfolio.
+Complain About: accidental-2119 yes, missing-example-ids yes
+Markup Shorthands: markdown yes, css no
+Boilerplate: conformance no, copyright no, repository-issue-tracking no
+</pre>
+<style>
+    /* This adds a page counter to the bottom of the page when exported to a PDF. */
+    @page {
+        @bottom-center {
+            content: counter(page);
+        }
+    }
+    /* This resets word wrapping to the initial browser setting. */
+    body {
+        word-wrap: initial;
+        overflow-wrap: initial;
+        hyphens: initial;
+    }
+</style>
+
+# Introduction # {#introduction}
+This is the first main section. You can also have subsections.
+
+## More information ## {#introduction-more-information}
+This is an example of a subsection, within the Introduction section.
+
+# Code # {#code-examples}
+Here are some code examples, under the sub header of the Introduction section.
+<code>
+```python
+from __future__ import annotations
+
+
+def main():
+    for _ in range(100):
+        print("Example Python code!")
+
+
+if __name__ == "__main__":
+    main()
+```
+</code>
+
+# Tables # {#tables}
+Here is a table of some programming languages.
+<pre class='simpledef'>
+    Python: This is programming language #1 in this table.
+    Kotlin: This is programming language #2 in this table.
+    Java: This is programming language #3 in this table.
+    Go: This is programming language #4 in this table.
+    Rust: This is programming language #5 in this table.
+</pre>
+
+# Quotes # {#quotes}
+Here is an example block quote.
+<blockquote>
+    This is an example block quote. This is an example block quote.
+    This is an example block quote. This is an example block quote.
+    This is an example block quote. This is an example block quote.
+    This is an example block quote. This is an example block quote.
+    This is an example block quote. This is an example block quote.
+    This is an example block quote. This is an example block quote.
+    This is an example block quote. This is an example block quote.
+    This is an example block quote. This is an example block quote.
+    This is an example block quote. This is an example block quote.
+</blockquote>
