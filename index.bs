@@ -71,3 +71,11 @@ Here is an example block quote.
     This is an example block quote. This is an example block quote.
     This is an example block quote. This is an example block quote.
 </blockquote>
+
+# Figures # {#figures}
+<figure>
+    <img src="image.png" alt="An image with example text in it">
+    <figcaption>
+        An image with example text in it
+    </figcaption>
+</figure>
